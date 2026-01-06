@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="messages"></div>
+
+  <div id="input-container">
+    <label for="file-input" id="upload-btn">📎</label>
+    <input id="file-input" type="file" accept="image/*" hidden />
+    
+    <textarea id="user-input" placeholder="Type a message or drop an image…" rows="1"></textarea>
+
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
