@@ -1,8 +1,7 @@
 # 🧠 Multimodal Code Assistant Agent
 
-A learning-focused coding assistant that explores how **LangGraph workflows** and **LangChain ReAct agents** can be composed into a **controlled, inspectable** system.
-
-This project represents my **first structured attempt** at combining deterministic graph-based orchestration with scoped agent reasoning for coding tasks.
+This project originated from a larger ambition: to build a general agentic system capable of solving problems across multiple domains—coding, math, chemistry, and beyond—using a manager/router agent to interpret context and dispatch specialized sub-agents, each running its own ReAct-style reasoning loop. A core assumption behind this vision is that a capable system should be both multi-modal and multi-model, selecting the most suitable model when a task falls into its “bullseye,” rather than relying on a single monolithic LLM. 
+While such an extensible design is conceptually sound, implementing it end-to-end was impractical under my own real-world constraints. This repository represents a deliberately scoped-down realization of that idea: a learning-focused coding assistant that preserves the same structural principles—explicit routing, role separation, and scoped agentic reasoning—implemented with LangGraph workflows and multiple lightweight, specialized models in a controlled and inspectable form.
 
 ---
 
